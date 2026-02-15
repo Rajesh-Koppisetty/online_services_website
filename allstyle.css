@@ -1,0 +1,288 @@
+/* ******************************************************************************************** */
+/* main css */
+.footer-section{
+    background-color: #082e6a;
+    list-style: none;
+}
+.footer-section li{
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+.footer-section h2{
+    padding-bottom: 10px;
+}
+.footer1{
+    list-style: none;
+}
+.footer1 img{
+    
+    border-radius: 100%;
+    padding: 5px;
+    background-color: #2f3e96;
+    margin-bottom: 5px;
+}
+.footer1 li{
+    margin-top: 2px;
+}
+.nav-section a:hover{
+    
+    
+    transition: 0.7s ease;
+    font-weight: bold;
+    background-color: rgb(168, 171, 171);
+    
+
+}
+/***************..........................................................****************/
+/* services css */
+
+
+
+/* header */
+.header-img{
+    display: flex;
+    justify-content: space-around;
+}
+.header-nav{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 20px;
+}
+/* hero Section */
+.hero-section{
+    background-color: #003366;
+    padding: 50px;
+    text-align: center;
+}
+.hero-section h2{
+    color: rgb(200, 200, 37);
+}
+.hero-section h6{
+    color: #fff;
+}
+/* box section */
+
+.box{
+    border: 1px solid rgb(8, 8, 8);
+    padding: 20px;
+    text-align: center;
+    background-color: #082e6a;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+}
+.rowBox{
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+
+.box:hover{
+    background-color: #000;
+    color: #fff;
+    
+}
+
+
+
+
+
+/* ---------------------------------------------------------------------------- */
+/* amazing css */
+
+
+.hero-amazing{
+    background-color: #003366;
+    padding: 50px;
+    text-align: center;
+}
+
+.floting{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.parent{
+    position: relative;
+}
+.child{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+}
+.child1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+
+.child1:hover  {
+  opacity: 1;
+  
+}
+.child1 img:hover{
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------- */
+/* contact css */
+.contact-details{
+    background-color: #082e6a;
+}
+.contact-hero{
+    
+    background-color: #082e6a;
+
+    
+
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+    .ourlocation-contact iframe{
+        width: 100%;
+        height: auto;
+    }
+    .contact-details img{
+        width: 80px;
+        height: 80px;
+        
+
+    }
+    .form11{
+    margin-top: 20px;
+}
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    .ourlocation-contact iframe{
+        width: 100%;
+        height: 360px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    .ourlocation-contact iframe{
+        width: 100%;
+        height: 360px;
+    }
+}
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------- */
+/* blog css */
+.hero-blog{
+    background-color: #082e6a;
+}
+@media (min-width: 576px) and (max-width: 768px) { 
+    .blog-section img{
+        width: 100%;
+        height: auto;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------- */
+/* aliquam css */
+.images-section h6{
+       margin-top: 20px;
+    }
+    .images-section img{
+       margin-top: 20px;
+    }
+    
+
+
+
+
+  @media (min-width: 320px) and (max-width: 576px) { 
+    .aliquam-img img{
+        width: 100%;
+        height: auto;
+    }
+    .parent{
+        margin-bottom: 20px;
+    }
+    .qw img{
+        width: 80px;
+        height: 80px;
+        
+    }
+    
+  }
+  @media (min-width: 576px) and (max-width: 768px) { 
+    .aliquam-img img{
+        width: 100%;
+        height: auto;
+    }
+    .qw{
+        width: 100%;
+    }
+    
+  }
+  @media (min-width: 768px) and (max-width: 1199.98px) {
+    .aliquam-img img{
+        width: 100%;
+        height: auto;
+        text-align: center;
+
+    }
+    .images-section{
+        margin-left: 100px;
+    }
+    
+   @media (min-width: 1199.68px) and (max-width: 1399.98px) {
+    .aliquam-img img{
+        width: 100%;
+        height: auto;
+    }
+    
+   }
+}
+
